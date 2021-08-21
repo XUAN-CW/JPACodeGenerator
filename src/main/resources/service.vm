@@ -1,0 +1,12 @@
+package ${PackageConfig.parent}.${PackageConfig.service};
+
+
+/**
+ *
+ * @author ${GlobalConfig.author}
+ * @date ${GlobalConfig.date}
+ */
+
+public interface ${ClassConfig.entity}${ClassConfig.service} {
+
+}

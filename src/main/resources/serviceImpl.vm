@@ -1,0 +1,15 @@
+package ${PackageConfig.parent}.${PackageConfig.serviceImpl};
+
+import org.springframework.stereotype.Service;
+import ${PackageConfig.parent}.${PackageConfig.service}.${ClassConfig.entity}${ClassConfig.service};
+
+/**
+ *
+ * @author ${GlobalConfig.author}
+ * @date ${GlobalConfig.date}
+ */
+
+@Service
+public class ${ClassConfig.entity}${ClassConfig.serviceImpl} implements ${ClassConfig.entity}${ClassConfig.service} {
+
+}

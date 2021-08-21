@@ -1,0 +1,16 @@
+package ${PackageConfig.parent}.${PackageConfig.repository};
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import ${PackageConfig.parent}.${PackageConfig.entity}.${ClassConfig.entity};
+
+/**
+ *
+ * @author ${GlobalConfig.author}
+ * @date ${GlobalConfig.date}
+ */
+
+@Repository
+public interface ${ClassConfig.entity}${ClassConfig.repository} extends CrudRepository<${ClassConfig.entity},${ClassConfig.entityIdType}> {
+
+}
